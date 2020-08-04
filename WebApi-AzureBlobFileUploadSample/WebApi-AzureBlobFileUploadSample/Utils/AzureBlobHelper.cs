@@ -7,7 +7,7 @@ namespace WebApi_AzureBlobFileUploadSample.Utils
 {
     internal static class AzureBlobHelper
     {
-        public static CloudBlobContainer GetWebApiContainer(string containerName= "webapi-file-container")
+        public static CloudBlobContainer GetWebApiContainer(string containerName= "yellowtaxidata")
         {
             // Retrieve storage account from connection-string
             CloudStorageAccount storageAccount = CloudStorageAccount.Parse(
